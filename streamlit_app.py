@@ -48,8 +48,7 @@ except URLError as e:
 # write your own comment - what does this do?
 #streamlit.dataframe(fruityvice_normalized)
 
-#don't run anything past here we want to troubleshoot
-streamlit.stop()
+
 
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
